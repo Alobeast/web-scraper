@@ -21,4 +21,5 @@ class Page < ApplicationRecord
                 !scraper.present?(selector: selector)
               end
     results.create(success: result)
+  end
 end
