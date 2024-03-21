@@ -5,6 +5,6 @@
       <div class="text-sm text-gray-700"><%= page.url %></div>
     </div>
 
-    <%= render page.last_result %>
+    <%= render page.last_result if page.last_result %>
   </div>
 <% end %>
