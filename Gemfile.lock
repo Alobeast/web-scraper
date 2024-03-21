@@ -88,6 +88,8 @@ GEM
     debug (1.9.1)
       irb (~> 1.10)
       reline (>= 0.3.8)
+    dockerfile-rails (1.6.7)
+      rails (>= 3.0.0)
     erubi (1.12.0)
     globalid (1.2.1)
       activesupport (>= 6.1)
@@ -149,6 +151,7 @@ GEM
       racc (~> 1.4)
     nokogiri (1.16.3-x86_64-linux)
       racc (~> 1.4)
+    pg (1.5.6)
     psych (5.1.2)
       stringio
     public_suffix (5.0.4)
@@ -261,9 +264,11 @@ DEPENDENCIES
   bootsnap
   capybara
   debug
+  dockerfile-rails (>= 1.6)
   importmap-rails
   jbuilder
   letter_opener_web (~> 2.0)
+  pg (~> 1.5)
   puma (~> 5.0)
   rails (~> 7.0.8, >= 7.0.8.1)
   redis (~> 4.0)
